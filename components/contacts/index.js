@@ -54,6 +54,7 @@ const Contacts = ({ contactList }) => {
                 height={100}
                 width={100}
                 alt={person.firstName}
+                priority={true}
               />
             </div>
             <div>
