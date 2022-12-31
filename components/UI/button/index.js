@@ -5,11 +5,7 @@ import styles from "./Button.module.css";
 const Button = ({ href, onClick, children, ...rest }) => {
   if (!href) {
     return (
-      <button
-        onClick={onClick}
-        className={[styles.button, { position: "absolute" }]}
-        {...rest}
-      >
+      <button onClick={onClick} className={styles.button} {...rest}>
         {children}
       </button>
     );

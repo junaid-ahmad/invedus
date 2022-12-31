@@ -1,3 +1,5 @@
+import { fullNameGenerator } from "./fullNameGenerator";
+
 export const checkEntryAlreadyExistInArray = (array, element) => {
   let isContactAlreadyExist = false;
 
@@ -8,6 +10,8 @@ export const checkEntryAlreadyExistInArray = (array, element) => {
       break;
     }
   }
+
+  console.log(isContactAlreadyExist);
 
   return isContactAlreadyExist;
 };
